@@ -5,6 +5,9 @@ const config: ThemeConfig = {
   
 }
 
-const theme = extendTheme({ config })
+const theme = extendTheme({ config , fonts: {
+    heading: `'Roboto Condensed', sans-serif`,
+    body: `'Roboto Condensed', sans-serif`,
+  }})
 
 export default theme

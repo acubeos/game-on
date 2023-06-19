@@ -21,7 +21,9 @@ const GameCard = ({ game }: Props) => {
 					<CriticScore score={game.metacritic} />
 				</HStack>
 				<Heading fontSize={"2xl"}>
-					{game.name} <Emoji rating={game.rating_top} />
+					<HStack alignItems='baseline'>
+						<Text>{game.name}</Text> <Emoji rating={game.rating_top} />
+					</HStack>
 				</Heading>
 			</CardBody>
 		</Card>
