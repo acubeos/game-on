@@ -5,7 +5,7 @@ import GameGrid from "./components/GameGrid"
 import GenreList from "./components/GenreList"
 import { Genre } from "./hooks/UseGenres"
 import PlatformSelector from "./components/PlatformSelector"
-import { Platform } from "./hooks/UseGames"
+import { Platform } from "./hooks/usePlatforms"
 import SortSelector from "./components/SortSelector"
 import GameHeading from "./components/GameHeading"
 
