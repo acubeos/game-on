@@ -1,5 +1,5 @@
 import { Icon } from "@chakra-ui/react"
-import { Platform } from "../entities/Platform"
+import Platform from "../entities/Platform"
 import { HStack } from "@chakra-ui/react"
 
 import {
