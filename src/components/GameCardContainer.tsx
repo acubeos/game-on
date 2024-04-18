@@ -14,6 +14,7 @@ const GameCardContainer = ({ children }: Props) => {
 			}}
 			borderRadius={"10"}
 			overflow={"hidden"}
+			boxShadow='base'
 		>
 			{children}
 		</Box>
